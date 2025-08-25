@@ -1,0 +1,57 @@
+# -------------------------
+# Node.js & General
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+dist/
+build/
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Environment Variables
+# -------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# -------------------------
+# Logs
+# -------------------------
+logs
+*.log
+*.log.*
+lerna-debug.log
+.pnpm-debug.log
+
+# -------------------------
+# Vite / React (Frontend)
+# -------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.eslintcache
+
+# -------------------------
+# Express (Backend)
+# -------------------------
+backend/node_modules/
+backend/dist/
+backend/.env
+
+# -------------------------
+# IDE / Editors
+# -------------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
